@@ -5,6 +5,7 @@
 #'
 #' @param x First value
 #' @return Product of v1 and v2
+#' @export
 square <- function(x) {
     .Call('_testRpkg_square', PACKAGE = 'testRpkg', x)
 }

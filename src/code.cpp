@@ -6,7 +6,8 @@ using namespace Rcpp;
 //'
 //' @param x First value
 //' @return Product of v1 and v2
-//[[Rcpp::export]]
+//' @export
+//[[Rcpp::export(square)]]
 float square(float x) {
     return x * x;
 }
